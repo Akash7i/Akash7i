@@ -19,6 +19,8 @@
 | ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3) | ![Bootstrap](https://img.shields.io/badge/Bootstrap-purple?style=for-the-badge&logo=bootstrap) | ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql) |
 
 ---
-### 🐍 GitHub Contribution Snake (Neon Style)
+### 🐍 Neon Glow GitHub Contribution Snake
 
-![snake gif](https://github.com/akash7i/akash7i/blob/output/github-contribution-grid-snake.svg)
+<p align="center">
+  <img src="https://github.com/akash7i/akash7i/blob/output/github-contribution-grid-snake.svg" alt="snake animation"/>
+</p>
