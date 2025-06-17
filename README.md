@@ -19,7 +19,7 @@
 | ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3) | ![Bootstrap](https://img.shields.io/badge/Bootstrap-purple?style=for-the-badge&logo=bootstrap) | ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql) |
 
 ---
-### 🐍 GitHub Contribution Snake (Neon Style)
+### 🐍 GitHub Snake 
 
 <p align="center">
   <img src="https://github.com/akash7i/akash7i/blob/output/github-contribution-grid-snake.svg" alt="snake animation"/>
@@ -27,7 +27,7 @@
 
 ---
 
-### 🟡 GitHub Contribution Pac-Man
+### 🟡 GitHub Pac-Man
 
 <p align="center">
   <picture>
