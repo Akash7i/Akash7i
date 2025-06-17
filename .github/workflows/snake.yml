@@ -1,6 +1,8 @@
 name: Generate Snake
 
 on:
+  schedule:
+    - cron: "0 0 * * *" # runs at midnight every day
   workflow_dispatch:
 
 jobs:
@@ -8,15 +10,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-
       - name: Generate Snake SVG
         uses: Platane/snk@v3
         with:
           github_user_name: Akash7i
           outputs: |
             dist/github-contribution-grid-snake.svg
+          # 💡 Customize the appearance
+          color_snake: '#00FF99'
+          color_dots: '#FFD700,#FF4500,#1E90FF,#32CD32,#9400D3'
+          svg_out_path: dist/github-contribution-grid-snake.svg
 
       - name: Show output folder
         run: ls -R dist
