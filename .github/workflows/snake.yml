@@ -2,7 +2,7 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *" # runs at midnight every day
+    - cron: "0 0 * * *" # every day at midnight
   workflow_dispatch:
 
 jobs:
@@ -10,16 +10,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Generate Snake SVG
+      - name: Generate Snake SVG with Transparent Background
         uses: Platane/snk@v3
         with:
           github_user_name: Akash7i
           outputs: |
             dist/github-contribution-grid-snake.svg
-          # 💡 Customize the appearance
-          color_snake: '#00FF99'
-          color_dots: '#FFD700,#FF4500,#1E90FF,#32CD32,#9400D3'
-          svg_out_path: dist/github-contribution-grid-snake.svg
+          # Customize
+          color_snake: '#00ff99'
+          color_dots: '#39FF14,#FF1493,#00BFFF,#FFD700'
+          # Transparent or dark mode
+          background: transparent # or use 'dark' or '#000000'
 
       - name: Show output folder
         run: ls -R dist
