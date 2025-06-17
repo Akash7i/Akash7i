@@ -2,7 +2,7 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Runs daily at midnight
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 jobs:
@@ -13,12 +13,12 @@ jobs:
       - name: Generate Snake SVG with custom style
         uses: Platane/snk@v3
         with:
-          github_user_name: Akash7i
+          github_user_name: akash7i
           outputs: |
             dist/snake.svg
-          color_snake: "#00ffff"                # Neon cyan snake
-          color_dots: "#cccccc,#e0e0e0"         # Light grey & off-white dots
-          background_color: "#00000000"         # Transparent background
+          color_snake: "#00ffff"
+          color_dots: "##f0f0f0,#ffffff"
+          background_color: "#00000000"
 
       - name: Show output folder
         run: ls -R dist
