@@ -2,8 +2,8 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
+    - cron: "0 0 * * *"  # Runs daily at midnight
+  workflow_dispatch:     # Allows manual trigger
 
 jobs:
   generate:
@@ -16,9 +16,9 @@ jobs:
           github_user_name: akash7i
           outputs: |
             dist/snake.svg
-          color_snake: "#00ffff"
-          color_dots: "##f0f0f0,#ffffff"
-          background_color: "#00000000"
+          color_snake: "#00ffff"               # Neon cyan
+          color_dots: "#f0f0f0,#ffffff"        # Light grey + white dots
+          background_color: "#00000000"        # Transparent
 
       - name: Show output folder
         run: ls -R dist
