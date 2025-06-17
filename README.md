@@ -20,23 +20,20 @@
 
 ---
 
-### 🎮 GitHub Contribution Animations
+### 🐍 GitHub Contribution Snake (Neon Style)
 
-<table align="center">
-  <tr>
-    <td align="center"><strong>🐍 Snake Game</strong></td>
-    <td align="center"><strong>🟡 Pac-Man Game</strong></td>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://github.com/akash7i/akash7i/blob/output/github-contribution-grid-snake.svg" alt="snake animation"/>
-    </td>
-    <td>
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/akash7i/akash7i/output/pacman-contribution-graph-dark.svg">
-        <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/akash7i/akash7i/output/pacman-contribution-graph.svg">
-        <img src="https://raw.githubusercontent.com/akash7i/akash7i/output/pacman-contribution-graph.svg" alt="pacman animation">
-      </picture>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://github.com/akash7i/akash7i/blob/output/github-contribution-grid-snake.svg" alt="snake animation"/>
+</p>
+
+---
+
+### 🟡 GitHub Contribution Pac-Man
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/akash7i/akash7i/output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/akash7i/akash7i/output/pacman-contribution-graph.svg">
+    <img src="https://raw.githubusercontent.com/akash7i/akash7i/output/pacman-contribution-graph.svg" alt="pacman animation">
+  </picture>
+</p>
