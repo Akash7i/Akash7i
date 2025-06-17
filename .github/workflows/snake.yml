@@ -2,7 +2,7 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *" # every day at midnight
+    - cron: "0 0 * * *"  # every day at midnight
   workflow_dispatch:
 
 jobs:
@@ -16,7 +16,6 @@ jobs:
           github_user_name: akash7i
           outputs: |
             dist/github-contribution-grid-snake.svg
-          # Custom styling
           color_snake: "#00ffff"         # neon blue snake
           color_dots: "#1a1a1a,#252525"  # background dots
           background_color: "#00000000"  # transparent
