@@ -13,7 +13,7 @@ jobs:
       - name: Generate Snake SVG with custom style
         uses: Platane/snk@v3
         with:
-          github_user_name: akash7i
+          github_user_name: Akash7i
           outputs: |
             dist/snake.svg
           color_snake: "#00ffff"                # Neon cyan snake
