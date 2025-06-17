@@ -19,8 +19,24 @@
 | ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3) | ![Bootstrap](https://img.shields.io/badge/Bootstrap-purple?style=for-the-badge&logo=bootstrap) | ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql) |
 
 ---
-### 🐍 Neon Glow GitHub Contribution Snake
 
-<p align="center">
-  <img src="https://github.com/akash7i/akash7i/blob/output/github-contribution-grid-snake.svg" alt="snake animation"/>
-</p>
+### 🎮 GitHub Contribution Animations
+
+<table align="center">
+  <tr>
+    <td align="center"><strong>🐍 Snake Game</strong></td>
+    <td align="center"><strong>🟡 Pac-Man Game</strong></td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/akash7i/akash7i/blob/output/github-contribution-grid-snake.svg" alt="snake animation"/>
+    </td>
+    <td>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/akash7i/akash7i/output/pacman-contribution-graph-dark.svg">
+        <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/akash7i/akash7i/output/pacman-contribution-graph.svg">
+        <img src="https://raw.githubusercontent.com/akash7i/akash7i/output/pacman-contribution-graph.svg" alt="pacman animation">
+      </picture>
+    </td>
+  </tr>
+</table>
