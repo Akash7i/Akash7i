@@ -17,7 +17,7 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
           color_snake: "#00ffff"         # neon blue snake
-          color_dots: "#1a1a1a,#252525"  # background dots
+          color_dots: "#000000"  # background dots
           background_color: "#00000000"  # transparent
 
       - name: Show output folder
