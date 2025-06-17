@@ -10,17 +10,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Generate Snake SVG with Transparent Background
+      - name: Generate Snake SVG with custom style
         uses: Platane/snk@v3
         with:
-          github_user_name: Akash7i
+          github_user_name: akash7i
           outputs: |
             dist/github-contribution-grid-snake.svg
-          # Customize
-          color_snake: '#00ff99'
-          color_dots: '#39FF14,#FF1493,#00BFFF,#FFD700'
-          # Transparent or dark mode
-          background: transparent # or use 'dark' or '#000000'
+          # Custom styling
+          color_snake: "#00ffff"         # neon blue snake
+          color_dots: "#1a1a1a,#252525"  # background dots
+          background_color: "#00000000"  # transparent
 
       - name: Show output folder
         run: ls -R dist
