@@ -22,14 +22,6 @@
 
 ---
 
-### 🐍 GitHub Snake
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/akash7i/akash7i/output/snake.svg" alt="snake animation"/>
-</p>
-
----
-
 ### 🟡 GitHub Pac-Man
 
 <p align="center">
